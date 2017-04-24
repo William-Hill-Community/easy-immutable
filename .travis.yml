@@ -17,4 +17,4 @@ deploy:
     secure: "sH2aGyXyOQu3Z94t/7mf9tgjI+v6WTP9PjJVqvae0Fesg+GNHuxnkWrrnO++YfOizvqlLaljA4JVqQLrkeTRzSX5n5eZb5+ESyoDHGr1vYo+5YPRwEX7K1BuRt8WFFFJQ/oFlkXwAno4En1R7PJj/WX1bCCui5+g67+xadmCvEQVmPTqiKXjvVoXUvXFmZiti3u4ioctEC2Ih4STX6pFl5LhPOpjScWgYsxxUkmidvwRYKUYc+c1HPSPZVGxrB702tfeDFDxSJ0prydVcXp9PfgS0v5CtO766mhZtVzg8DfS+PXGQRjN9JMb4FgD+68gaqXXDGqqX5aYY2SH/F/+yAewjkPZH3jZ0oR+IYwylDjoU9UxopQtO4tSlyuya1RExgAx2/EKLUChYxTWVAX5RxT+SMD7DE/ycH1Ku7qmOgw39ax33SH9BGX21fwVHFJOTSKSFgj9FMoMcj/nGY9tdiJkuy5CffvSXjCHJ5y3Y4MbOG9bzgxs0wm7K2uWrtrF4jMuykW+edCSpckLe1Q+vxOhFUXGBpE3tHJHBkt3Ehij5o5ZmQAEPPYsKwxEULLWUFxJb9HWNX8xj0CDR2DUttx9M6B5G/jefGvAKa5GQrArI4K6d84pqRNvlAOPFFbnKpAn2Jc1hQ2NrYl+eUgl3Q+NWcBS3lRSJfnrPes2/RM="
   on:
     tages: false
-    repo: william-hill-community/easy-immutable
+    repo: wenisman/easy-immutable
