@@ -1,13 +1,13 @@
 {
   "name": "easy-immutable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A light weight immutable object implementation",
   "author": "Geoffrey Tsai",
   "license": "MIT",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wenisman/easy-immutable.git"
+    "url": "https://github.com/william-hill-community/easy-immutable.git"
   },
   "scripts": {
     "eslint": "eslint --fix src test",
