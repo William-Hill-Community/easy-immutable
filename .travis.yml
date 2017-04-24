@@ -10,7 +10,6 @@ matrix:
   - env: COVERAGE=true
 after_success:
 - '[ $COVERAGE == false ] || npm run istanbul -- --report text-summary'
-- 'npm version 1.0.$TRAVIS_BUILD_NUMBER'
 deploy:
   provider: npm
   email: wenisman@hotmail.com
