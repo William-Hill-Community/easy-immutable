@@ -9,12 +9,12 @@ matrix:
   include:
   - env: COVERAGE=true
 after_success:
-  - "[ $COVERAGE == false ] || npm run istanbul -- --report text-summary"
+- '[ $COVERAGE == false ] || npm run istanbul -- --report text-summary'
 deploy:
   provider: npm
   email: wenisman@hotmail.com
   api_key:
-    secure: sH2aGyXyOQu3Z94t/7mf9tgjI+v6WTP9PjJVqvae0Fesg+GNHuxnkWrrnO++YfOizvqlLaljA4JVqQLrkeTRzSX5n5eZb5+ESyoDHGr1vYo+5YPRwEX7K1BuRt8WFFFJQ/oFlkXwAno4En1R7PJj/WX1bCCui5+g67+xadmCvEQVmPTqiKXjvVoXUvXFmZiti3u4ioctEC2Ih4STX6pFl5LhPOpjScWgYsxxUkmidvwRYKUYc+c1HPSPZVGxrB702tfeDFDxSJ0prydVcXp9PfgS0v5CtO766mhZtVzg8DfS+PXGQRjN9JMb4FgD+68gaqXXDGqqX5aYY2SH/F/+yAewjkPZH3jZ0oR+IYwylDjoU9UxopQtO4tSlyuya1RExgAx2/EKLUChYxTWVAX5RxT+SMD7DE/ycH1Ku7qmOgw39ax33SH9BGX21fwVHFJOTSKSFgj9FMoMcj/nGY9tdiJkuy5CffvSXjCHJ5y3Y4MbOG9bzgxs0wm7K2uWrtrF4jMuykW+edCSpckLe1Q+vxOhFUXGBpE3tHJHBkt3Ehij5o5ZmQAEPPYsKwxEULLWUFxJb9HWNX8xj0CDR2DUttx9M6B5G/jefGvAKa5GQrArI4K6d84pqRNvlAOPFFbnKpAn2Jc1hQ2NrYl+eUgl3Q+NWcBS3lRSJfnrPes2/RM=
+    secure: ebDP9jKao1N2nl8nj6GLsvDZBbKvlkiDsDiO+GpHb8pwcXQWZhfO2mNyKY7jotE54bAP9tzll3tf3EGTyB/iMsfu42hEjwSGxvG9dg2NMJCZ2VrzpTabrkowBp4uREhd0sAd2orlnOG+RlPBm7Lk3BHcxA7P0CRBEOw2XNwc5eaZiEcT7f8IZ8lQj7rlAMZ2c+mpgf06YkhMrnuekmGLNvBbdwlsAhnhsF4XdEHldbaDzSHQ6qBPBCiqw+kMPhyJpofo8GxuRaRzRWQcqYPnVVvEE+4PDIqz3vCEzWFHlOMBG22BRiLbTP5eLuUDMzs+jbK2i+1/hF6VnXECgMAsIHA1wMbnJ9SeZ/oNWbdsOFgR/EKUHQgrtf7ZmH2Sx3+K2+79mwmVgdYjFkSlgf9F6GMvA2+CCTxfY88pwFAKrci3Y592E2Lcx3o0YAJG/tb7SOGhglakECXGLs0C4SSJ2d4PnKRTY47t3EDa6Sbq33NWdZvuxPdBV8t6AGn3zcj8L5MzxaGS+RAQYwQNsMEoSgan49oOn4n3O2aKqlNJQWaIdM1OVhx6+pIqQrwPVX6r9XeX2Qer5LYfTlaDeVNgMde71rzasdMk8p5ZT03QNT1Bi3+1vRx3UvcIb5+aJhr3QF+cQpax7Abjqjrm8KQI8mcKg3LVwv9I02YiCaC1ilE=
   on:
     tages: false
     repo: wenisman/easy-immutable
