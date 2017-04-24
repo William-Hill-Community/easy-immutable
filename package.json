@@ -1,6 +1,6 @@
 {
   "name": "easy-immutable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A light weight immutable object implementation",
   "author": "Geoffrey Tsai",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "eslint": "eslint --fix src test",
     "test": "istanbul cover node_modules/.bin/_mocha -- -u exports -R spec -r test/setup.js test/*{,*/}*.js"
   },
-  "engineStrict":  true,
+  "engineStrict": true,
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.19.0",
