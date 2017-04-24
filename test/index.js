@@ -1,6 +1,8 @@
 const Immutable = require('../src/index');
+const sinon = require('sinon');
+const chai = require('chai');
 
-describe('validating the immutable class', () => {
+describe('the immutable class', () => {
   it('should make an immutable', () => {
     let output = new Immutable({ hello: 'test' });
     output.hello.should.equal('test');
