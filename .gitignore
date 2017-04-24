@@ -1,0 +1,8 @@
+node_modules
+out
+.tmp
+npm-debug.log
+coverage
+typings
+.localsettings
+cSpell.json

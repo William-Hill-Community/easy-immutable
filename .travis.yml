@@ -1,0 +1,18 @@
+language: nodejs
+node_js:
+  - '7'
+  - '6'
+env:
+  global:
+  - COVERAGE=false
+matrix:
+  include:
+  - env: COVERAGE=true
+after_success:
+  - "[ $COVERAGE == false ] || npm run istanbul -- --report text-summary"
+deploy:
+  provider: npm
+  email: wenisman@hotmail.com
+  on:
+    tages: false
+    repo: wenisman/easy-immutable

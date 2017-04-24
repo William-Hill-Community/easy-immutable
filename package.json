@@ -1,0 +1,25 @@
+{
+  "name": "easy-immutable",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Geoffrey Tsai",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "eslint": "eslint --fix src test",
+    "test": "istanbul cover node_modules/.bin/_mocha -- -u exports -R spec -r test/setup.js test/*{,*/}*.js"
+  },
+  "engineStrict":  true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "proxyquire": "^1.7.11",
+    "sinon": "^2.1.0"
+  },
+  "dependencies": {
+    "ramda": "^0.23.0"
+  }
+}
